@@ -1,6 +1,6 @@
 {
-  "chainName": "evmos",
-  "title": "Evmos Block Explorer",
+  "chainName": "pell",
+  "title": "Pell Block Explorer",
   "extra": {
     "profile": false,
     "graphqlWs": true

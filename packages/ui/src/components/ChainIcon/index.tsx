@@ -16,7 +16,7 @@ import cryptoorgIconLight from 'shared-utils/assets/icons/cryptoorgChain-light.s
 import multiversxIconLight from 'shared-utils/assets/icons/multiversx-light.svg?url';
 import multiversxIconDark from 'shared-utils/assets/icons/multiversx-dark.svg?url';
 import emoneyIconDark from 'shared-utils/assets/icons/emoney-dark.svg?url';
-import evmosIconLight from 'shared-utils/assets/icons/evmos-light.svg?url';
+import pellIconLight from 'shared-utils/assets/icons/pell-light.svg?url';
 import flowIconLight from 'shared-utils/assets/icons/flow-light.svg?url';
 import likecoinIconLight from 'shared-utils/assets/icons/likecoin-light.svg?url';
 import nomicIconDark from 'shared-utils/assets/icons/nomic-dark.svg?url';
@@ -57,7 +57,7 @@ import crescentLogoDark from 'shared-utils/assets/logos/crescent-dark.svg?url';
 import cheqdLogoDark from 'shared-utils/assets/logos/cheqd-dark.svg?url';
 import cheqdLogoLight from 'shared-utils/assets/logos/cheqd-light.svg?url';
 import emoneyLogoDark from 'shared-utils/assets/logos/emoney-dark.svg?url';
-import evmosLogoLight from 'shared-utils/assets/logos/evmos-light.svg?url';
+import pellLogoLight from 'shared-utils/assets/logos/pell-light.svg?url';
 import flowLogoLight from 'shared-utils/assets/logos/flow-light.svg?url';
 import likecoinLogoLight from 'shared-utils/assets/logos/likecoin-light.svg?url';
 import nomicLogoDark from 'shared-utils/assets/logos/nomic-dark.svg?url';
@@ -172,9 +172,9 @@ const ChainIcon = ({
       [iconDark, iconLight] =
         type === 'icon' ? [emoneyIconDark, emoneyIconDark] : [emoneyLogoDark, emoneyLogoDark];
       break;
-    case 'evmos':
+    case 'pell':
       [iconDark, iconLight] =
-        type === 'icon' ? [evmosIconLight, evmosIconLight] : [evmosLogoLight, evmosLogoLight];
+        type === 'icon' ? [pellIconLight, pellIconLight] : [pellLogoLight, pellLogoLight];
       break;
     case 'flow':
       [iconDark, iconLight] =

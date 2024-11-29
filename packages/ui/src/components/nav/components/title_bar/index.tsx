@@ -18,6 +18,7 @@ const TitleBar: FC<TitleBarProps> = ({ className, title }) => {
   const marketState = useRecoilValue(readMarket);
 
   const market = formatMarket(marketState);
+  console.log('qwe-', readMarket, marketState);
 
   return (
     <div className={cx(classes.root, className)}>
